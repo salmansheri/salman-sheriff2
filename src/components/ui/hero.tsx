@@ -3,6 +3,7 @@ import { ButtonMagic } from "./button-magic";
 import { GridBackground } from "./grid-background";
 import { Spotlight } from "./spot-light";
 import { TextGenerateEffect } from "./text-generate";
+import Image from "next/image";
 
 export const Hero = () => {
   return (
@@ -26,9 +27,9 @@ export const Hero = () => {
 
       <div className="flex justify-center relative my-20 ">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
-          </h2>
+          <div className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+            <Image src="/file.png" alt="profile" height={200} width={200} />
+          </div>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
             words="Transforming Concepts into Seamless User Experiences"
@@ -38,7 +39,7 @@ export const Hero = () => {
             Hi I am Salman Sheriff, A Full Stack Developer
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <ButtonMagic
               title="Show my work"
               icon={<FaLocationArrow />}

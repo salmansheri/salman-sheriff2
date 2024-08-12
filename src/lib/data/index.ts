@@ -1,8 +1,10 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Home", link: "#home", icon: "/home.svg" },
+  { name: "About", link: "#about", icon: "/about.svg" },
+
+  { name: "Skills", link: "#skills", icon: "/skill.svg" },
+  { name: "Projects", link: "#projects", icon: "/project.svg" },
+  { name: "Contact", link: "#contact", icon: "/contact.svg" },
 ];
 
 export const gridItems = [
@@ -205,13 +207,94 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    href: "https://github.com/salmansheri",
   },
   {
     id: 2,
     img: "/twit.svg",
+    href: "https://x.com/sheriffsalman00",
   },
   {
     id: 3,
     img: "/link.svg",
+    href: "https://www.linkedin.com/in/salman-sheriff-6b3721214/",
+  },
+];
+
+export const skills = [
+  {
+    id: 1,
+    title: "Next.js",
+    src: "/next.svg",
+  },
+  {
+    id: 2,
+    title: "Framer Motion",
+    src: "/images/framer.png",
+  },
+  {
+    id: 3,
+    title: "Node.js",
+    src: "/images/nodejs.png",
+  },
+  {
+    id: 4,
+    title: "Mongo DB",
+    src: "/images/mongodb.png",
+  },
+  {
+    id: 5,
+    title: "Postgresql",
+    src: "/images/postgresql.png",
+  },
+  {
+    id: 6,
+    title: "CSS",
+    src: "/images/css.png",
+  },
+  {
+    id: 7,
+    title: "Express",
+    src: "/images/express.png",
+  },
+  {
+    id: 8,
+    title: "Github",
+    src: "/images/github.png",
+  },
+  {
+    id: 9,
+    title: "HTML",
+    src: "/images/html-logo.png",
+  },
+  {
+    id: 10,
+    title: "Javascript",
+    src: "/images/javascript-logo.png",
+  },
+  {
+    id: 11,
+    title: "Prisma",
+    src: "/images/prisma1.png",
+  },
+  {
+    id: 12,
+    title: "Python",
+    src: "/images/react.png",
+  },
+  {
+    id: 13,
+    title: "Redux",
+    src: "/images/redux.png",
+  },
+  {
+    id: 14,
+    title: "Tailwind",
+    src: "/images/tailwind.png",
+  },
+  {
+    id: 15,
+    title: "Typescript",
+    src: "/images/typescript.png",
   },
 ];
